@@ -1,5 +1,5 @@
 # Obsidian Vault Switcher – A shell script
-A [fish](https://github.com/fish-shell/fish-shell) script implementing [rofi](https://github.com/davatorium/rofi) or [dmenu](https://tools.suckless.org/dmenu) to let you open the desired [Obsidian](https://obsidian.md) vault.
+A [fish](https://fishshell.com) script implementing [rofi](https://github.com/davatorium/rofi) or [dmenu](https://tools.suckless.org/dmenu) to let you open the desired [Obsidian](https://obsidian.md) vault.
 
 ## Setup
 1. Open your first vault.
