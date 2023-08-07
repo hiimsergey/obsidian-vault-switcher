@@ -4,11 +4,12 @@ A [fish](https://fishshell.com) script implementing [rofi](https://github.com/da
 ![](screenshot.png)
 
 ## Setup
-1. Open your first vault.
-2. copy `~/.config/obsidian/obsidian.json` to `~/.config/obsidian/<vault_name>.json`
-3. Repeat with all the other vaults.
-4. Replace all occurences of `vault_one`, `vault_two` etc. with the names of your vaults in the script.
-5. If you use Wayland, also uncomment the rest of the last line.
+1. Pick the right repo branch depending of if you use rofi or dmenu.
+2. Open your first vault.
+3. copy `~/.config/obsidian/obsidian.json` to `~/.config/obsidian/<vault_name>.json`
+4. Repeat with all the other vaults.
+5. Replace all occurences of `vault_one`, `vault_two` etc. with the names of your vaults in the script.
+6. If you use Wayland, also uncomment the rest of the last line.
 
 ## Functionality
 Before launching Obsidian, the script manipulates `obsidian.json`, where the information about the last visited vault is stored.
