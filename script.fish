@@ -1,4 +1,4 @@
-#!/usr/bin/fish
+#!/bin/fish
 
 while true
     set select (echo -e "vault_one\nvault_two\nvault_three" | rofi -dmenu -p "Select vault:")
