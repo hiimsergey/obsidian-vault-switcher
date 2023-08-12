@@ -1,14 +1,16 @@
 #!/usr/bin/fish
 
 while true
-    set select (echo -e "vault_one\nvault_two\nvault_three\nquit" | rofi -dmenu -p "Select vault:")
+    set select (echo -e "vault_one\nvault_two\nvault_three" | rofi -dmenu -p "Select vault:")
+
+    if test -z $select
+        exit 1
+    end
 
     switch $select
     case "vault_one" "vault_two" "vault_three"
         cat ~/.config/obsidian/$select.json > ~/.config/obsidian/obsidian.json
         break
-    case "quit"
-        exit
     case "*"
         continue
     end
