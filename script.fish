@@ -1,7 +1,7 @@
 #!/bin/fish
 
 while true
-    set select (echo -e "vault_one\nvault_two\nvault_three" | rofi -dmenu -p "Select vault:")
+    set select (echo -e "vault_one\nvault_two\nvault_three" | rofi -dmenu -p "Select vault")
 
     if test -z $select
         exit 1
