@@ -62,4 +62,4 @@ There is probably a more efficient way to do this, but at least it works for me.
 
 ¯\\_(ツ)_/¯
 
-So, all the script does is overwriting `obsidian.json` with the files you created in steps 2 and 3 of Setup.
+So, all the script does is overwriting `obsidian.json` with the files you created in steps 2 and 3 of [Setup](#setup).
