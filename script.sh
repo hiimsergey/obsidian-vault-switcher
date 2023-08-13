@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 while true; do
     select=$(echo -e "vault_one\nvault_two\nvault_three" | rofi -dmenu -p "Select vault")
