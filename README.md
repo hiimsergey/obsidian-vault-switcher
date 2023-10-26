@@ -7,7 +7,7 @@ A shell script implementing [rofi](https://github.com/davatorium/rofi) or [dmenu
 1. Pick the right repo branch depending of if you use rofi or dmenu.
 2. Open your first vault.
 3. copy `~/.config/obsidian/obsidian.json` to `~/.config/obsidian/<vault_name>.json`
-4. Repeat steps 2 and 3 with all the other vaults. (***NOTE: Make sure that all the vault-agnostic settigs like "Native Frame Style" are included, else they will be overwritten.***)
+4. Repeat steps 2 and 3 with all the other vaults. (*NOTE: Make sure that all the vault-agnostic settings like "Native Frame Style" are included, else they will be overwritten.*)
 5. Replace all occurences of `vault_one`, `vault_two` etc. with the names of your vaults in the script.
 6. If you use Wayland, also uncomment the rest of the last line.
 
